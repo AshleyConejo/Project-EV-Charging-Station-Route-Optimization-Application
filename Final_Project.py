@@ -21,9 +21,6 @@ class Dijkstra_Algorithm():
         best_path, min_length = shortest_path[nearest_station]
         return nearest_station, best_path, min_length
 
-    def efficient_path(self):
-        
-        return self.searchin_process(starting_point= input())
     
 algorithm_object = Dijkstra_Algorithm()
 
