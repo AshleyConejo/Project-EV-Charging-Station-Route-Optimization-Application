@@ -54,5 +54,3 @@ while True:
     print(f"The most efficient route to the closest charging station {nearest_station} is:")
     print(f"Path: {best_path} with a total distance of {min_length}.")
     print()
-  
-        
